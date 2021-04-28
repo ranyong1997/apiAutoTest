@@ -1,0 +1,14 @@
+{
+    "data": {
+        "id": 500,
+        "rid": 0,
+        "username": "admin",
+        "mobile": "17674949994",
+        "email": "1296522554@qq.com",
+        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MTk2MjQ5MzQsImV4cCI6MTYxOTcxMTMzNH0.RBbMNGjpiA9ZyV-GgBQn65Ybw0oIcgWwFfaXaOhxFGg"
+    },
+    "meta": {
+        "msg": "登录成功",
+        "status": 200
+    }
+}

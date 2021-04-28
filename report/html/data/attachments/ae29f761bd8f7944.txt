@@ -1,0 +1,130 @@
+{
+    "case_001": {
+        "data": null,
+        "meta": {
+            "msg": "参数错误",
+            "status": 400
+        }
+    },
+    "case_002": {
+        "data": {
+            "id": 500,
+            "rid": 0,
+            "username": "admin",
+            "mobile": "17674949994",
+            "email": "1296522554@qq.com",
+            "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MTk2MjQ5MzMsImV4cCI6MTYxOTcxMTMzM30.R_9otmb8gm4Bh-OGNWWNyOCZ3JFLkGOPNNMXqydo-Vs"
+        },
+        "meta": {
+            "msg": "登录成功",
+            "status": 200
+        }
+    },
+    "case_003": {
+        "data": {
+            "total": 3,
+            "pagenum": 1,
+            "users": [
+                {
+                    "id": 500,
+                    "role_name": "超级管理员",
+                    "username": "admin",
+                    "create_time": 1486720211,
+                    "mobile": "17674949994",
+                    "email": "1296522554@qq.com",
+                    "mg_state": true
+                },
+                {
+                    "id": 509,
+                    "role_name": "超级管理员",
+                    "username": "asdf123",
+                    "create_time": 1511853353,
+                    "mobile": "1111",
+                    "email": "asdf@qq.com",
+                    "mg_state": true
+                },
+                {
+                    "id": 513,
+                    "role_name": "超级管理员",
+                    "username": "陈韵龙我儿",
+                    "create_time": 1619620189,
+                    "mobile": "13506800412",
+                    "email": "31911019@stu.zucc.edu.cn",
+                    "mg_state": false
+                }
+            ]
+        },
+        "meta": {
+            "msg": "获取管理员列表成功",
+            "status": 200
+        }
+    },
+    "case_004": {
+        "data": null,
+        "meta": {
+            "msg": "无效token",
+            "status": 400
+        }
+    },
+    "case_005": {
+        "data": {
+            "id": 515,
+            "username": "tery132131",
+            "role_id": -1,
+            "create_time": 1619624933
+        },
+        "meta": {
+            "msg": "创建成功",
+            "status": 201
+        }
+    },
+    "case_006": {
+        "data": {
+            "id": 515,
+            "rid": -1,
+            "username": "tery132131",
+            "mobile": null,
+            "email": null,
+            "mg_state": 0
+        },
+        "meta": {
+            "msg": "设置状态成功",
+            "status": 200
+        }
+    },
+    "case_007": {
+        "data": {
+            "id": 515,
+            "rid": -1,
+            "username": "tery132131",
+            "mobile": null,
+            "email": null,
+            "mg_state": 0
+        },
+        "meta": {
+            "msg": "设置状态成功",
+            "status": 200
+        }
+    },
+    "case_008": {
+        "data": null,
+        "meta": {
+            "msg": "删除成功",
+            "status": 200
+        }
+    },
+    "case_012": {
+        "data": {
+            "id": 500,
+            "rid": 0,
+            "username": "admin",
+            "mobile": "17674949994",
+            "email": "1296522554@qq.com",
+            "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MTk2MjQ5MzQsImV4cCI6MTYxOTcxMTMzNH0.RBbMNGjpiA9ZyV-GgBQn65Ybw0oIcgWwFfaXaOhxFGg"
+        },
+        "meta": {
+            "msg": "登录成功",
+            "status": 200
+        }
+    }
+}

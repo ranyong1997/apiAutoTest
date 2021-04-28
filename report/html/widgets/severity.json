@@ -1,0 +1,201 @@
+[ {
+  "uid" : "51c2e3918b3039cf",
+  "name" : "调试运算新功能",
+  "time" : {
+    "start" : 1619624939242,
+    "stop" : 1619624939445,
+    "duration" : 203
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "12f7ac9c1af64366",
+  "name" : "win10-本地测试上传单文件接口",
+  "time" : {
+    "start" : 1619624938761,
+    "stop" : 1619624938761,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f3e9e773f426382e",
+  "name" : "修改用户状态接口",
+  "time" : {
+    "start" : 1619624938573,
+    "stop" : 1619624938639,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3a1e90538cbf310",
+  "name" : "修改用户状态为2",
+  "time" : {
+    "start" : 1619624938643,
+    "stop" : 1619624938699,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c35d3a3a5682ba01",
+  "name" : "本地添加用户，测试数据库备份",
+  "time" : {
+    "start" : 1619624938980,
+    "stop" : 1619624939042,
+    "duration" : 62
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "30b2c52223f0ed46",
+  "name" : "查询QQ访问量",
+  "time" : {
+    "start" : 1619624939592,
+    "stop" : 1619624939642,
+    "duration" : 50
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c496367febf5c3f2",
+  "name" : "本地删除，测试数据库备份",
+  "time" : {
+    "start" : 1619624939058,
+    "stop" : 1619624939105,
+    "duration" : 47
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9adbee0631d6d20b",
+  "name" : "添加用户正常接口数据",
+  "time" : {
+    "start" : 1619624938366,
+    "stop" : 1619624938562,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57ce53a2ac82d923",
+  "name" : "get请求查询用户数据列表",
+  "time" : {
+    "start" : 1619624938303,
+    "stop" : 1619624938354,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f8f27930f622d8d",
+  "name" : "调试运算新功能,从响应提取后运算",
+  "time" : {
+    "start" : 1619624939456,
+    "stop" : 1619624939518,
+    "duration" : 62
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8832378de297116",
+  "name" : "调试运算新功能,从path需要运算",
+  "time" : {
+    "start" : 1619624939529,
+    "stop" : 1619624939580,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d1177e33bd6790c",
+  "name" : "win10-本地测试上传多文件接口",
+  "time" : {
+    "start" : 1619624938777,
+    "stop" : 1619624938777,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a2d19ddfa4574268",
+  "name" : "删除用户zy7y",
+  "time" : {
+    "start" : 1619624938699,
+    "stop" : 1619624938761,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd3519a685dda4af",
+  "name" : "get请求实现登录",
+  "time" : {
+    "start" : 1619624937670,
+    "stop" : 1619624937785,
+    "duration" : 115
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "420d4a50a0591862",
+  "name" : "post请求实现登录",
+  "time" : {
+    "start" : 1619624937961,
+    "stop" : 1619624938145,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27d6d4ca1a853f88",
+  "name" : "本地删除，测试数据库备份",
+  "time" : {
+    "start" : 1619624939167,
+    "stop" : 1619624939231,
+    "duration" : 64
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "65ec7e57030dbcca",
+  "name" : "本地删除，测试数据库备份",
+  "time" : {
+    "start" : 1619624939105,
+    "stop" : 1619624939167,
+    "duration" : 62
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2195fc07d09da50a",
+  "name" : "sql断言的用例（在本地数据库调试）",
+  "time" : {
+    "start" : 1619624938792,
+    "stop" : 1619624938964,
+    "duration" : 172
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9197c3f82b33ea39",
+  "name" : "mac-本地上传单文件",
+  "time" : {
+    "start" : 1619624938792,
+    "stop" : 1619624938792,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a632cb688bc41311",
+  "name" : "get请求查询用户数据列表",
+  "time" : {
+    "start" : 1619624938151,
+    "stop" : 1619624938297,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

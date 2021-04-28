@@ -1,0 +1,39 @@
+{
+    "data": {
+        "total": 3,
+        "pagenum": 1,
+        "users": [
+            {
+                "id": 500,
+                "role_name": "超级管理员",
+                "username": "admin",
+                "create_time": 1486720211,
+                "mobile": "17674949994",
+                "email": "1296522554@qq.com",
+                "mg_state": true
+            },
+            {
+                "id": 509,
+                "role_name": "超级管理员",
+                "username": "asdf123",
+                "create_time": 1511853353,
+                "mobile": "1111",
+                "email": "asdf@qq.com",
+                "mg_state": true
+            },
+            {
+                "id": 513,
+                "role_name": "超级管理员",
+                "username": "陈韵龙我儿",
+                "create_time": 1619620189,
+                "mobile": "13506800412",
+                "email": "31911019@stu.zucc.edu.cn",
+                "mg_state": false
+            }
+        ]
+    },
+    "meta": {
+        "msg": "获取管理员列表成功",
+        "status": 200
+    }
+}

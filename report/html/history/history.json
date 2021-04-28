@@ -1,0 +1,396 @@
+{
+  "5777368728cab34aec99bce292e15e60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12f7ac9c1af64366",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\zy7y\\\\Desktop\\\\a.txt'",
+      "time" : {
+        "start" : 1619624938761,
+        "stop" : 1619624938761,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9b58e419aa66c81ba5e26368887473ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3e9e773f426382e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619624938573,
+        "stop" : 1619624938639,
+        "duration" : 66
+      }
+    } ]
+  },
+  "e48abca8fb0895e685397860fb6393f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2d19ddfa4574268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619624938699,
+        "stop" : 1619624938761,
+        "duration" : 62
+      }
+    } ]
+  },
+  "b0878ee5eb70538305b060fabbf99fe0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8832378de297116",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:{'msg': '更新失败', 'status': 400} || 预期结果: {'msg': '设置状态成功', 'status': 200}",
+      "time" : {
+        "start" : 1619624939529,
+        "stop" : 1619624939580,
+        "duration" : 51
+      }
+    } ]
+  },
+  "94c53f645702c06e17118fd92e09f479" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3a1e90538cbf310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619624938643,
+        "stop" : 1619624938699,
+        "duration" : 56
+      }
+    } ]
+  },
+  "0d3dd93f9d173bd3e59f983349bd1202" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9197c3f82b33ea39",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '/users/zy7y/vue.js'",
+      "time" : {
+        "start" : 1619624938792,
+        "stop" : 1619624938792,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cb8576f098f00f7b2b9caa91976f2b58" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c496367febf5c3f2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 成功",
+      "time" : {
+        "start" : 1619624939058,
+        "stop" : 1619624939105,
+        "duration" : 47
+      }
+    } ]
+  },
+  "5a1a59aa4470006c7c58a5ba625a4478" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2195fc07d09da50a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:500 || 预期结果: None",
+      "time" : {
+        "start" : 1619624938792,
+        "stop" : 1619624938964,
+        "duration" : 172
+      }
+    } ]
+  },
+  "d5345d39adc3d02ffcaf8f15af49ab18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "420d4a50a0591862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619624937961,
+        "stop" : 1619624938145,
+        "duration" : 184
+      }
+    } ]
+  },
+  "b38dd9102eca0ecc435403cc70874ea0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f8f27930f622d8d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 成功",
+      "time" : {
+        "start" : 1619624939456,
+        "stop" : 1619624939518,
+        "duration" : 62
+      }
+    } ]
+  },
+  "8174f8ecb1004db16679a852ff5f760a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd3519a685dda4af",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 400",
+      "time" : {
+        "start" : 1619624937670,
+        "stop" : 1619624937785,
+        "duration" : 115
+      }
+    } ]
+  },
+  "606664f28e2ceb44b0ad0dc80a135fc2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65ec7e57030dbcca",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 成功",
+      "time" : {
+        "start" : 1619624939105,
+        "stop" : 1619624939167,
+        "duration" : 62
+      }
+    } ]
+  },
+  "0739167ffd7bddb403117cdf6fcb588f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9adbee0631d6d20b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619624938366,
+        "stop" : 1619624938562,
+        "duration" : 196
+      }
+    } ]
+  },
+  "371500b22dde43facb97f8752bf0ff77" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30b2c52223f0ed46",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 200",
+      "time" : {
+        "start" : 1619624939592,
+        "stop" : 1619624939642,
+        "duration" : 50
+      }
+    } ]
+  },
+  "2a3dfa6b36ee5ab01504c51319b8492e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51c2e3918b3039cf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 成功",
+      "time" : {
+        "start" : 1619624939242,
+        "stop" : 1619624939445,
+        "duration" : 203
+      }
+    } ]
+  },
+  "25f6ba9e78828713a480fcdbed4cfa82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d1177e33bd6790c",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\zy7y\\\\Desktop\\\\b.jpg'",
+      "time" : {
+        "start" : 1619624938777,
+        "stop" : 1619624938777,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d9a0d8b349872450f96c814afdee344e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c35d3a3a5682ba01",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 成功",
+      "time" : {
+        "start" : 1619624938980,
+        "stop" : 1619624939042,
+        "duration" : 62
+      }
+    } ]
+  },
+  "3a098e261ee7b9115a8be890393002aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a632cb688bc41311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619624938151,
+        "stop" : 1619624938297,
+        "duration" : 146
+      }
+    } ]
+  },
+  "5dcd673c9103656bd9a03aaad715fda7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27d6d4ca1a853f88",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:None || 预期结果: 成功",
+      "time" : {
+        "start" : 1619624939167,
+        "stop" : 1619624939231,
+        "duration" : 64
+      }
+    } ]
+  },
+  "f9a3a528aa08d345b131e068670a2332" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57ce53a2ac82d923",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败 -|- 实际结果:{'msg': '无效token', 'status': 400} || 预期结果: {'msg': '获取管理员列表成功', 'status': 200}",
+      "time" : {
+        "start" : 1619624938303,
+        "stop" : 1619624938354,
+        "duration" : 51
+      }
+    } ]
+  }
+}
