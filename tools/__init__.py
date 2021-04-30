@@ -15,6 +15,8 @@ import allure
 from jsonpath import jsonpath
 from loguru import logger
 
+from tools.hooks import *
+
 
 def extractor(obj: dict, expr: str = '.') -> object:
     """
@@ -26,8 +28,8 @@ def extractor(obj: dict, expr: str = '.') -> object:
     try:
         result = jsonpath(obj, expr)[0]
     except Exception as e:
-        logger.error(f'提取不到内容，丢给你一个错误！{e}')
-        result = None
+        logger.error(f'{expr} - 提取不到内容，丢给你一个错误！{e}')
+        result = expr
     return result
 
 
@@ -40,9 +42,14 @@ def rep_expr(content: str, data: dict, expr: str = '&(.*?)&') -> str:
     """
     for ctt in re.findall(expr, content):
         content = content.replace(f'&{ctt}&', str(extractor(data, ctt)))
-    # 解决运算问题，实现+ -等常规数学运算， 用例书写格式{"uid":eval`&$.pid&+1`} 如果需要是字符串{"uid":eval`&$.pid&+1`}
-    for e in re.findall('eval`(.*)`', content):
-        content = content.replace(f'eval`{e}`', str(eval(e)))
+
+    # 增加自定义函数得的调用，函数写在tools/hooks.py中
+    for func in re.findall('@(.*?)@', content):
+        try:
+            content = content.replace(f'@{func}@', exec_func(func))
+        except Exception as e:
+            logger.error(e)
+            continue
     return content
 
 
@@ -82,4 +89,10 @@ def allure_step(step: str, var: str) -> None:
     :param var: 附件内容
     """
     with allure.step(step):
-        allure.attach(json.dumps(var, ensure_ascii=False, indent=4), step, allure.attachment_type.TEXT)
+        allure.attach(
+            json.dumps(
+                var,
+                ensure_ascii=False,
+                indent=4),
+            step,
+            allure.attachment_type.TEXT)

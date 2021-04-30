@@ -90,7 +90,7 @@ class DataProcess:
         if sql is not None:
             # 查后置sql
             result = db.fetch_one(sql)
-            allure_step('sql执行结果', {"sql_result": result})
+            allure_step('sql执行结果', result)
             logger.info(f'结果：{result}')
             if result is not None:
                 # 将查询结果添加到响应字典里面，作用在，接口响应的内容某个字段 直接和数据库某个字段比对，在预期结果中
@@ -112,10 +112,11 @@ class DataProcess:
             # 获取需要断言的实际结果部分
             actual = extractor(response, k)
             index += 1
-            logger.info(f'第{index}个断言,实际结果:{actual} | 预期结果:{v} \n断言结果 {actual == v}')
-            allure_step(f'第{index}个断言',  f'实际结果:{actual} = 预期结果:{v}')
+            logger.info(
+                f'第{index}个断言,实际结果:{actual} | 预期结果:{v} \n断言结果 {actual == v}')
+            allure_step(f'第{index}个断言', f'实际结果:{actual} = 预期结果:{v}')
             try:
                 assert actual == v
             except AssertionError:
-                raise AssertionError(f'断言失败 -|- 实际结果:{actual} || 预期结果: {v}')
-
+                raise AssertionError(
+                    f'第{index}个断言失败 -|- 实际结果:{actual} || 预期结果: {v}')
