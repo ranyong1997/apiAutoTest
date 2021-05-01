@@ -59,18 +59,29 @@ def base64_decode(character, coding='utf-8'):
     return base64_dec.decode()
 
 
-if __name__ == '__main__':
-    # 实例, 调用无参数方法 get_current_highest
-    result = exec_func("get_current_highest()")
-    print(result)
+def md5_encode2(coding='utf-8'):
+    """MD5加密(openid+ts+key)"""
+    openid = ''
+    ts = get_current_highest()
+    key = 'eef02eb6258996ccab6e49e6e7ad94f'
+    sign = md5_encode(openid + str(ts) + key)
+    md5_enc = hashlib.md5()
+    md5_enc.update(sign.encode(coding))
+    return sign
 
-    # 调用有参数方法 sum_data
-    print(exec_func("sum_data(1,3)"))
-    # 调用md5加密方法
-    print(md5_encode("123"))
-    # 调用时间戳
-    print(get_current_highest())
-    # 调用base64加密
-    print(base64_encode("456"))
-    # 调用base64解密
-    print(base64_decode("NDU2"))
+
+if __name__ == '__main__':
+    # # 实例, 调用无参数方法 get_current_highest
+    # result = exec_func("get_current_highest()")
+    # print(result)
+    # # 调用有参数方法 sum_data
+    # print(exec_func("sum_data(1,3)"))
+    # # 调用md5加密方法
+    # print(md5_encode("123"))
+    # # 调用时间戳
+    # print(get_current_highest())
+    # # 调用base64加密
+    # print(base64_encode("456"))
+    # # 调用base64解密
+    # print(base64_decode("NDU2"))
+    print(md5_encode2())
