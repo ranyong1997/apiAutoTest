@@ -73,6 +73,6 @@ if __name__ == '__main__':
     # md5_encode2()
     print(exec_func("md5_encode2()"))
     # 实例, 调用无参数方法 get_current_highest
-    # print(exec_func("get_current_highest()"))
+    print(exec_func("get_current_highest()"))
     # 调用有参数方法 sum_data
-    # print(exec_func("sum_data(1,3)"))
+    print(exec_func("sum_data(1,3)"))

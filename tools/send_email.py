@@ -3,7 +3,6 @@
 # @Author  : RanyLra
 # @Wechat  : RanY_Luck
 # @File    : send_email.py
-import email
 
 import yagmail
 from tools import logger
@@ -60,9 +59,3 @@ class EmailServe:
         # 关闭服务
         yag.close()
         logger.info("邮件发送成功")
-
-
-if __name__ == '__main__':
-    # EmailServe.zip_report('../report/html', '../report.zip')
-    path = '../report/html', '../report.zip'
-    EmailServe.send_email(email, path)

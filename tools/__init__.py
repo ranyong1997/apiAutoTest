@@ -94,10 +94,4 @@ def allure_step(step: str, var: str) -> None:
     :return:
     """
     with allure.step(step):
-        allure.attach(
-            json.dumps(
-                var,
-                ensure_ascii=False,
-                indent=4),
-            step,
-            allure.attachment_type.TEXT)
+        allure.attach(json.dumps(var, ensure_ascii=False, indent=4), step, allure.attachment_type.TEXT)
