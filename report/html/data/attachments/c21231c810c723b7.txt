@@ -1,9 +1,0 @@
-{
-    "pagenum": 1,
-    "pagesize": "12",
-    "meta": {
-        "msg": "登录成功",
-        "status": 200
-    },
-    "userId": 500
-}

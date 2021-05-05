@@ -1,13 +1,8 @@
-#!/usr/bin/env/python3
-# -*- coding:utf-8 -*-
-"""
-@project: apiAutoTest
-@author: zy7y
-@file: db.py
-@ide: PyCharm
-@time: 2020/12/4
-@desc: 数据库连接,目前只支持mysql ，且个人认为用到最多的操作应该是查询所以其他todo
-"""
+# -*- coding: utf-8 -*-
+# @Time    : 2021/5/2 17:23
+# @Author  : RanyLra
+# @Wechat  : RanY_Luck
+# @File    : db.py
 
 import pymysql
 
@@ -20,14 +15,25 @@ class DB:
     def __init__(self):
         """初始化连接Mysql"""
         self.connection = pymysql.connect(
-            host=self.mysql.get('host', 'localhost'),
-            port=self.mysql.get('port', 3306),
-            user=self.mysql.get('user', 'root'),
-            password=self.mysql.get('password', '123456'),
-            db=self.mysql.get('db_name', 'test'),
+            host=self.mysql.get('host', 'host'),
+            port=self.mysql.get('port', 'port'),
+            user=self.mysql.get('user', 'user'),
+            password=self.mysql.get('password', 'password'),
+            db=self.mysql.get('db_name', 'db_name'),
             charset=self.mysql.get('charset', 'utf8mb4'),
             cursorclass=pymysql.cursors.DictCursor
         )
+    # def __init__(self):
+    #     """初始化连接Mysql"""
+    #     self.connection = pymysql.connect(
+    #         host=self.mysql.get('host', 'localhost'),
+    #         port=self.mysql.get('port', 3306),
+    #         user=self.mysql.get('user', 'root'),
+    #         password=self.mysql.get('password', '123456'),
+    #         db=self.mysql.get('db_name', 'test'),
+    #         charset=self.mysql.get('charset', 'utf8mb4'),
+    #         cursorclass=pymysql.cursors.DictCursor
+    #     )
 
     def fetch_one(self, sql: str) -> object:
         """查询数据，查一条"""

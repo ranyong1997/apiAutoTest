@@ -1,6 +1,0 @@
-{
-    "Accept-Encoding": "gzip, deflate",
-    "Accept-Language": "zh-CN,zh;q=0.9",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MTk3OTc0MTMsImV4cCI6MTYxOTg4MzgxM30.om2ZyrtTNGZFFXmyywnk7YPoRpeUq-11f07y4_pYdfM"
-}
