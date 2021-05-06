@@ -35,7 +35,7 @@ def run():
     os.system(f'allure generate {report}/data -o {report}/html --clean')
     logger.success('报告已生成,请查收')
     # 启动allure服务
-    # os.system(f'allure serve {report}/data')  # 该方法会生成一个http服务 挂载报告文件 阻塞线程 (如果需要压缩报告,请注释)
+    os.system(f'allure serve {report}/data')  # 该方法会生成一个http服务 挂载报告文件 阻塞线程 (如果需要压缩报告,请注释)
 
 
 def zip_report():
@@ -56,6 +56,6 @@ def del_report():
 
 if __name__ == '__main__':
     run()
-    zip_report()
-    send_email()
+    # zip_report()
+    # send_email()
     # del_report()

@@ -1,6 +1,6 @@
 server:
   # 本地接口服务
-  test: https://res.abeim.cn/   # 测试环境
+  test: http://soloop-test.wanyol.com   # 测试环境
   dev: https://res.abeim.cn/    # 生产环境
 
 # 基准的请求头信息

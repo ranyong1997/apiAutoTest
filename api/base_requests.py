@@ -103,3 +103,4 @@ class BaseRequest(object):
             f'上传文件：{file}\n '
             f'响应数据：{res.json()}')
         return res
+

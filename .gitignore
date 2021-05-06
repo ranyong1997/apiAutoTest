@@ -121,4 +121,7 @@ dmypy.json
 .pytest_cache
 
 # report
-.report
+report/
+
+# log
+log/

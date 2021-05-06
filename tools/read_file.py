@@ -13,7 +13,7 @@ class ReadFile:
     config_dict = None
 
     @classmethod
-    def get_config_dict(cls, config_path: str = 'config/config.yaml') -> dict:
+    def get_config_dict(cls, config_path: str = './config/config.yaml') -> dict:
         """
         读取配置文件，并且转换成字典
         :param config_path: 配置文件地址，默认当前使用该目录下config/config.yaml
