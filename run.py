@@ -58,4 +58,4 @@ if __name__ == '__main__':
     run()
     zip_report()
     send_email()
-    del_report()
+    # del_report()
